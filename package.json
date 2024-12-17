@@ -1,0 +1,29 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && npx wdio run wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.4.2",
+    "@wdio/appium-service": "^9.4.2",
+    "@wdio/cli": "^9.4.2",
+    "@wdio/local-runner": "^9.4.2",
+    "@wdio/mocha-framework": "^9.4.2",
+    "allure-commandline": "^2.32.0",
+    "appium": "^2.12.1",
+    "appium-uiautomator2-driver": "^3.9.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
